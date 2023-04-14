@@ -1,0 +1,5 @@
+Vagrantfile
+__MACOSX
+*.zip
+.vagrant
+*.txt

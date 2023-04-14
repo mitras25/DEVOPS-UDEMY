@@ -1,5 +1,5 @@
-Vagrantfile
-__MACOSX
+./*/__MACOSX
 *.zip
-.vagrant
+./*/*.zip
+./*/.vagrant
 *.txt
