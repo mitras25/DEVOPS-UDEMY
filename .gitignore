@@ -3,3 +3,4 @@
 ./*/*.zip
 ./*/.vagrant
 *.txt
+.vscode
