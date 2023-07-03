@@ -1,0 +1,8 @@
+- name: Upgrade de todos os pacotes do s.o
+  yun:
+    name: '*'
+    state: latest
+- name: instalacao do git client
+  yun:
+    name: git
+    state: latest
