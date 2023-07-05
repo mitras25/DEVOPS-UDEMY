@@ -1,1 +1,1 @@
-{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"E:/DEVOPS-UDEMY/ansible-lab/db01","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"E:/devops-curso-udemy/DEVOPS-UDEMY/ansible-lab/db01","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
