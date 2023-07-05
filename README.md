@@ -16,3 +16,9 @@ Dentro da pasta onde esta o VagrantFile
     nome do playbook: ex app01.yml
     Para iniciar um playbook de maneira de teste --> ansible-playbook "nome do playbook" --check
     Para iniciar um playbook --> ansible-playbook "nome do playbook"
+
+  # Testando a Aplicação
+    Dentro do control-node/vagrant testar com curl
+     - curl -H "Content-Type: application/json" --data @note.json http://app01:8080/api/notes (POST)
+     - curl http://app01:8080/api/notes (GET)
+     - curl -X DELETE -H "Content-Type: application/json" http://app01:8080/api/notes/1 (DELETE)
